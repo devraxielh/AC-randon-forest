@@ -87,10 +87,6 @@ const RandomForestAnimation = () => {
 
   return (
     <Paper className="p-6 max-w-3xl mx-auto bg-white rounded-xl shadow-md space-y-6" elevation={3}>
-      <Typography variant="h4" component="h2" align="center" color="primary" gutterBottom>
-        Animación de Random Forest: Clasificación de Iris
-      </Typography>
-
       <Stepper activeStep={step} alternativeLabel>
         {steps.map((stepItem, index) => (
           <Step key={index}>

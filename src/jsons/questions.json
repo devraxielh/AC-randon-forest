@@ -1,6 +1,6 @@
 [
     {
-        "question": "¿Cuál es el propósito principal de un árbol de decisión en el aprendizaje automático?",
+        "question": "¿Cuál es el propósito principal de un Random Forest en el aprendizaje automático?",
         "options": [
             "Optimización de datos",
             "Detección de anomalías",
@@ -10,43 +10,43 @@
         "correctAnswer": 2
     },
     {
-        "question": "¿Qué estructura sigue un árbol de decisión?",
+        "question": "¿Qué combinación utiliza un Random Forest para mejorar la precisión?",
         "options": [
-            "Lineal",
-            "Jerárquica",
-            "Matriz",
-            "Circular"
+            "Muestreo aleatorio de datos y selección de características",
+            "Métodos de reducción dimensional",
+            "Regresión logística y redes neuronales",
+            "Modelos circulares y lineales"
         ],
-        "correctAnswer": 1
+        "correctAnswer": 0
     },
     {
-        "question": "¿Qué representa una hoja en un árbol de decisión?",
+        "question": "¿Qué representa el voto mayoritario en un Random Forest?",
         "options": [
-            "Un nodo de decisión",
-            "Un camino sin salida",
-            "Una característica o atributo",
-            "Un resultado o predicción final"
+            "La decisión tomada por un solo árbol",
+            "El promedio de todas las predicciones",
+            "La decisión final basada en la mayoría de los árboles",
+            "Una muestra aleatoria de los datos"
         ],
-        "correctAnswer": 3
+        "correctAnswer": 2
     },
     {
-        "question": "¿Qué criterio se usa comúnmente para dividir los nodos en un árbol de decisión?",
+        "question": "¿Qué ventaja tiene Random Forest sobre un solo árbol de decisión?",
         "options": [
-            "Algoritmo K-means",
-            "Índice de Gini o entropía",
-            "Regresión lineal",
-            "Algoritmo de Dijkstra"
+            "Menor complejidad computacional",
+            "Mayor interpretabilidad",
+            "Mejor generalización y reducción del sobreajuste",
+            "Más rápido en datos grandes"
         ],
-        "correctAnswer": 1
+        "correctAnswer": 2
     },
     {
-        "question": "¿Cuál de las siguientes NO es una ventaja de los árboles de decisión?",
+        "question": "¿Cuál de las siguientes NO es una desventaja de Random Forest?",
         "options": [
-            "Fácil interpretación",
-            "Manejo de datos categóricos y numéricos",
-            "Fácil de visualizar",
-            "Alta precisión en grandes conjuntos de datos"
+            "Mayor tiempo de computación",
+            "Menor interpretabilidad",
+            "Propenso al sobreajuste",
+            "Requiere más recursos computacionales"
         ],
-        "correctAnswer": 3
+        "correctAnswer": 2
     }
 ]

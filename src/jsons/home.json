@@ -1,9 +1,9 @@
 {
-    "imageSrc": "./assets/arbol-decision.jpg",
-    "imageAlt": "Imagen de un Árbol de Decisión",
-    "title": "¿Qué es un Árbol de Decisión?",
+    "imageSrc": "./assets/random-forest.png",
+    "imageAlt": "Imagen de un Random Forest",
+    "title": "¿Qué es un Random Forest?",
     "description": [
-        "Un árbol de decisión es un modelo utilizado en aprendizaje automático que se organiza en forma de árbol, donde cada nodo interno representa una 'prueba' o 'condición' en un atributo, cada rama representa el resultado de la prueba, y cada hoja representa una clase o una predicción final. Es una herramienta poderosa para la clasificación y la regresión, facilitando la toma de decisiones basada en datos de una manera interpretativa y fácil de entender.",
-        "Los árboles de decisión son ampliamente utilizados en aplicaciones como el diagnóstico médico, la evaluación del riesgo crediticio, y la clasificación de clientes en marketing, debido a su capacidad para manejar tanto datos categóricos como numéricos."
+        "Un Random Forest es un modelo de aprendizaje automático que combina múltiples árboles de decisión para mejorar la precisión y la estabilidad de las predicciones. Cada árbol en el bosque se entrena con una muestra diferente del conjunto de datos y se realiza una votación para decidir la predicción final, lo que lo hace más robusto frente al sobreajuste en comparación con un solo árbol de decisión.",
+        "El Random Forest es ampliamente utilizado en tareas de clasificación y regresión en diversas aplicaciones, como el diagnóstico médico, la detección de fraudes y el análisis predictivo en marketing, debido a su capacidad para manejar grandes volúmenes de datos y capturar relaciones complejas entre las variables."
     ]
 }
