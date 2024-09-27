@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import DecisionTreeClasificacionAnimation from './Clasificacion'; // Importa el primer componente de animación
-import DecisionTreeRegresionAnimation from './Regresion'; // Importa el segundo componente de animación
+import Randomforestanimation from './Randomforestanimation'; // Importa el primer componente de animación
+import RandomforestanimationR from './RandomforestanimationR'; // Importa el segundo componente de animación
 
 const AnimationSwitcher = () => {
     const [activeAnimation, setActiveAnimation] = useState(1); // Controla cuál animación está activa
@@ -25,8 +25,8 @@ const AnimationSwitcher = () => {
             </div>
 
             <div className="mt-5">
-                {activeAnimation === 1 && <DecisionTreeClasificacionAnimation />}
-                {activeAnimation === 2 && <DecisionTreeRegresionAnimation />}
+                {activeAnimation === 1 && <Randomforestanimation />}
+                {activeAnimation === 2 && <RandomforestanimationR />}
             </div>
         </div>
     );
